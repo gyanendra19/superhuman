@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
     role="region"
-    className="bg-black text-white flex overflow-hidden justify-center h-screen w-full">
+    className="bg-black text-white flex overflow-hidden justify-center h-screen max-w-full">
       <div className="bg-superhuman-gradient absolute md:-top-30 md:-left-140 w-[1200px] h-[1000px] md:h-[1230px] md:w-[1845px] opacity-80 "></div>
       <div>
         <div className="text-center text-sm md:text-md mt-20 mb-10 relative w-fit mx-auto p-2 rounded-md px-4 border-[0.3px] border-white bg-black/20 ai-gradient">

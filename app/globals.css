@@ -33,3 +33,8 @@
 .phone-gradient{
   background: radial-gradient(46.76% 46.76% at 50% 50%, rgba(92, 195, 250, 0.26) 0%, rgba(92, 195, 250, 0) 100%);
 }
+
+body, html{
+  max-height: screen;
+  overflow: hidden;
+}
